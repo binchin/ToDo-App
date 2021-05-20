@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  color: #ffffff;
+}
+.task-cards {
+  background: #101010;
+  min-height: 100vh;
+}
+.task-head {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.todo-head,
+.ongoing-head,
+.completed-head {
+  background: #1c1c1c;
+  width: 20%;
+  color: white;
+  margin-top: 0.5rem;
+  padding: 0.3rem 1rem;
+}
+.task-body {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.todo-task {
+  background: #1c1c1c;
+  width: 20%;
+  color: white;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+}
+.todo-task form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.todo-task form input {
+  margin: 0.5rem 0.2rem;
+  padding: 0.4rem 0.5rem;
+}
+::placeholder {
+  color: #101010;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+}
+.todo-task form textarea {
+  margin: 0.5rem 0.2rem;
+  padding: 0.4rem 0.5rem;
+}
+.todo-task form button {
+  margin: 0.5rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  background: #001aff;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
