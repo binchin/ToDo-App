@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background: #101010;
 }
 header {
   height: 10vh;
@@ -85,12 +86,19 @@ header h1 {
 
 /* DIV TASK */
 .ongoing-task {
-  background: #1c1c1c;
+  background: #101010;
   width: 25%;
-  color: white;
+  height: 15vh;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.o-task {
+  background: #1c1c1c;
   height: 15vh;
   margin-top: 1rem;
   padding: 0.3rem 1rem;
+  color: white;
 }
 .ongoing-task button {
   margin: 0.5rem 0.2rem;
@@ -113,6 +121,12 @@ header h1 {
   height: 15vh;
   margin-top: 1rem;
   padding: 0.3rem 1rem;
+}
+.completed-task p {
+  font-size: 0.8rem;
+}
+.ongoing-task p {
+  font-size: 0.8rem;
 }
 .completed-task button {
   margin: 0.5rem 0.2rem;
