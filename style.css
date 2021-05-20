@@ -14,6 +14,10 @@ header {
   background: #000000;
   color: #ffffff;
 }
+header h1 {
+  font-family: "Pattaya", sans-serif;
+}
+
 .task-cards {
   background: #101010;
   min-height: 100vh;
@@ -28,7 +32,7 @@ header {
 .ongoing-head,
 .completed-head {
   background: #1c1c1c;
-  width: 20%;
+  width: 25%;
   color: white;
   margin-top: 0.5rem;
   padding: 0.3rem 1rem;
@@ -41,7 +45,7 @@ header {
 }
 .todo-task {
   background: #1c1c1c;
-  width: 20%;
+  width: 25%;
   color: white;
   margin-top: 1rem;
   padding: 0.3rem 1rem;
@@ -76,4 +80,51 @@ header {
   color: #ffffff;
   font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+/* DIV TASK */
+.ongoing-task {
+  background: #1c1c1c;
+  width: 25%;
+  color: white;
+  height: 15vh;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+}
+.ongoing-task button {
+  margin: 0.5rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  background: #1cff68;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.completed-task {
+  background: #1c1c1c;
+  width: 25%;
+  color: white;
+  height: 15vh;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+}
+.completed-task button {
+  margin: 0.5rem 0.2rem;
+  padding: 0.2rem 0.5rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  background: #ff0d0d;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
 }
