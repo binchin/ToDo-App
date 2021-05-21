@@ -115,12 +115,21 @@ header h1 {
   cursor: pointer;
 }
 .completed-task {
-  background: #1c1c1c;
+  background: #101010;
   width: 25%;
-  color: white;
+  height: 15vh;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease;
+}
+.c-task {
+  background: #1c1c1c;
   height: 15vh;
   margin-top: 1rem;
   padding: 0.3rem 1rem;
+  color: white;
+  transition: 0.5s ease;
 }
 .completed-task p {
   font-size: 0.8rem;
